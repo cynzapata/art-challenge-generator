@@ -4,4 +4,14 @@
     align-items: center;
     margin: auto;
     margin-top: 250px;
+    background: #625ac4;
+    width: 800px;
+    border-radius: 15px;
+}
+
+.challenge{
+    padding: 60px 110px;
+    color: white;
+    font-size: 32px;
+    text-align: center;
 }
