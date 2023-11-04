@@ -27,20 +27,24 @@ export const RandomChallenge = () => {
     return (
 
     <div className='container'>
+         <div className="cat">
          <div className="title">
-          <img src={title} alt="text that says 365 drawing challenges" />
+            <img src={title} alt="text that says 365 drawing challenges" />
           </div>
+         
         <div className="challenge">Draw a {challenge.challenge}</div>
-        <div>
-            
+       
             <div className="bottom">
                 <div className="icons">
                     <img src={reload_icon} onClick={()=>{random()}} alt="reload icon" />
                 </div>
-            </div>
+                </div>
+                
+                </div>
             <div className='credits'>Made by Cynthia Zapata</div>
+           
         </div>
-    </div>
+    
   )
 }
 

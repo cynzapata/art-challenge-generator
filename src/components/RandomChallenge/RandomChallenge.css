@@ -9,6 +9,13 @@
     border-radius: 15px;
 }
 
+.title {
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .title img{
   height: 150px;
   padding: 5%;
@@ -39,6 +46,24 @@
     cursor: pointer;
     height: 170px;
   }
+
+  .cat{
+    background: url("cat-2.svg");
+    height: 100%;
+    width: 100%;
+    margin-top: 0em;
+   
+    animation: sprite-animation 3s steps(16, end) infinite;
+}
+
+@keyframes sprite-animation {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -8120px 0;
+    }
+}
 
   .credits{
     padding: 20px 110px;
