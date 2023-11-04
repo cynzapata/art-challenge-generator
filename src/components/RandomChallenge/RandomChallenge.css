@@ -4,9 +4,13 @@
     align-items: center;
     margin: auto;
     margin-top: 250px;
-    background: #625ac4;
+    background: #B3A8F4;
     width: 800px;
     border-radius: 15px;
+}
+
+.title img{
+  height: 150px;
 }
 
 .challenge{

@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import './RandomChallenge.css'
 import reload_icon from '../Assets/reload.png'
-
+import title from '../Assets/title.jpeg'
 
 export const RandomChallenge = () => {
     
@@ -27,7 +27,9 @@ export const RandomChallenge = () => {
     return (
 
     <div className='container'>
-         
+         <div className="title">
+          <img src={title} alt="text that says 365 drawing challenges" />
+          </div>
         <div className="challenge">Draw a {challenge.challenge}</div>
         <div>
             <div className='line'></div>
