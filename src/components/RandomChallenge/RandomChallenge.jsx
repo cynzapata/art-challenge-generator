@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import './RandomChallenge.css'
-import reload_icon from '../Assets/reload.png'
+import reload_icon from '../Assets/button.jpeg'
 import title from '../Assets/title.jpeg'
 
 export const RandomChallenge = () => {
@@ -32,12 +32,13 @@ export const RandomChallenge = () => {
           </div>
         <div className="challenge">Draw a {challenge.challenge}</div>
         <div>
-            <div className='line'></div>
+            
             <div className="bottom">
-            <div className="icons">
-                <img src={reload_icon} onClick={()=>{random()}} alt="reload icon" />
+                <div className="icons">
+                    <img src={reload_icon} onClick={()=>{random()}} alt="reload icon" />
+                </div>
             </div>
-            </div>
+            <div className='credits'>Made by Cynthia Zapata</div>
         </div>
     </div>
   )

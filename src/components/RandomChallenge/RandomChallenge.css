@@ -3,44 +3,47 @@
     flex-direction: column;
     align-items: center;
     margin: auto;
-    margin-top: 250px;
+    margin-top: 5em;
     background: #B3A8F4;
-    width: 800px;
+    width: 80%;
     border-radius: 15px;
 }
 
 .title img{
   height: 150px;
+  padding: 5%;
 }
 
 .challenge{
     padding: 60px 110px;
-    color: white;
+    color: #0D324D;
     font-size: 32px;
     text-align: center;
+    background-color: aliceblue;
+    outline: auto;
+    outline-color: #0D324D;
 }
 
-
-.line{
-    width: 680px;
-    height: 1.5px;
-    background: white;
-  }
 
   .bottom{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin: 30px 0px;
   }
 
-  .icons{
-    display: flex;
-    gap: 40px;
-  }
+  
 
   .icons img{
     cursor: pointer;
-    height: 60px;
+    height: 170px;
   }
+
+  .credits{
+    padding: 20px 110px;
+    color: #0D324D;
+    font-size: 25px;
+    text-align: center;
+   
+}
